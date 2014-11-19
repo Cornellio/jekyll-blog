@@ -4,23 +4,28 @@ title: About
 permalink: /about/
 ---
 
+My name is Pete Cornell
 
-Hello, my name is Pete Cornell.
+This is my tech related blog where I post occasional pieces about IT Ops, Linux, and open source software. I have been using Linux since the [Slackware](http://en.wikipedia.org/wiki/Slackware) release. Currently I am a [Red Hat Certified Engineer](href="http://www.redhat.com/training/certifications/rhce/) working at Virgin America where I support all Linux server infrastructure, including site operations for [virginamerica.com](https://www.virginamerica.com), software releases for Tomcat app servers, mysql databases and do Puppet module development.
 
-This is my tech related blog where I ocassionaly post useful bits of info related to Linux and open source software. I enjoy practicing the fine arts of Bash, Puppet, MCollective and Apache. I have a Linux certification, the <a href="http://www.redhat.com/training/certifications/rhce/">RHCE</a>– Red Hat Certified Engineer.
+Current Interests & Projects:
 
-I work as a System Administrator at <a href="http://www.virginamerica.com">Virgin America</a>, the nation’s <a href="http://www.forbes.com/sites/davidewalt/2013/04/08/americas-best-airlines/">best airline</a>.
+* Linux
+* Puppet
+* MCollective
+* OS Provisioning
+* Bash Shell Scripting
+* Python Scripting
+* Open Source Software
+* Design and Typography
 
-Before joining Virgin America I worked at an IT consulting company. Some clients and projects included:
-<ul>
-	<li><a href="http://calacademy.org">The California Academy of Sciences</a> – Migrated web servers from OS X to Linux</li>
-	<li><a href="http://archimedesmodel.com">Archimede</a> – Deployed web apps to cloud servers in AWS / EC2, Setup Grid Servers &amp; Hadoop DFS</li>
-	<li>Wells Fargo</li>
-	<li>Bank of America</li>
-	<li>The <a href="http://www.thecjm.org">Contemporary Jewish Museum</a></li>
-	<li>SF City Government</li>
-	<li>Proteus Digital Health</li>
-</ul>
-I have been happily married since 2005 and have two feisty children named Aliana and Jayden.
+Various past lives and projects include:
 
-I appreciate good design, smart writing, <a href="http://en.wikipedia.org/wiki/Bokeh">good photography</a> and <a href="http://www.apple.com/iphone/design">one</a> or <a href="http://www.apple.com/macbookpro/design.html">two</a> products the embody <a href="http://en.wikipedia.org/wiki/Dieter_Rams">fine industrial design.</a>
+* Website migration for the [California Academy of Sciences](http://www.calacademy.org)
+* Software build and deployment using Apache Tomcat in AWS for [Archimedes](http://archimedesmodel.com)
+* Built Grid Engine system using Hadoop & Univa for [Archimedes](http://archimedesmodel.com)
+* Deployment of WordPress websites and various LAMP sites
+
+I am married and have 2 kids named Aliana and Jayden. 
+
+I appreciate good design, smart writing, <a href="http://en.wikipedia.org/wiki/Bokeh">good photography</a> and <a href="http://www.apple.com/iphone/design">one</a> or <a href="http://www.apple.com/macbookpro/design.html">two</a> products that embody <a href="http://en.wikipedia.org/wiki/Dieter_Rams">fine industrial design.</a>
