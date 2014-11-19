@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Doctor Jekyll has arrived"
-date:   2014-xx-xx 16:02:00
-categories: jekyll update
+date:   2014-06-12 11:02:00
+categories: puppet
 ---
 
 If you use Puppet for configuration management, placing your code under version control is a good idea. In fact this is step 0. Just do it. You can use Git or Subversion for this purpose. In this post I explain how to do it using Subversion since that's what we have at work.
