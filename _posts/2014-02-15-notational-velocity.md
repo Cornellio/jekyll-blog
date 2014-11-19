@@ -2,7 +2,7 @@
 layout: post
 title:  "Notational Velocity"
 date:   2014-02-05 16:02:00
-categories: writing, workflow
+categories: writing workflow
 ---
 
 For those of who use Notational Velocity, there's a forked version, [nvALT](http://brettterpstra.com/projects/nvalt/)  that offers some brilliant enhancements like full-screen mode, vertical layout, menubar icon, and so on.

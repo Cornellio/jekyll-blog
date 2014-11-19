@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Doctor Jekyll has arrived"
+title:  "Puppet Version Control"
 date:   2014-06-12 11:02:00
 categories: puppet
 ---

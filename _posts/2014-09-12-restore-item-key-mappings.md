@@ -2,7 +2,7 @@
 layout: post
 title:  "Restore Key Mappings in iTerm"
 date:   2014-09-12 13:02:00
-categories: linux, terminal
+categories: linux terminal
 ---
 
 I use <a href="http://www.iterm2.com/#/section/home">iTerm</a> to control a collective of Linux servers. Since I have a strong preference for Mac key modifiers instead of PC modifiers, I use the Command key instead of the Control key. In order to use the Command key on Linux for important shell control commands like CTRL-A, E, K, and U, I remapped the modifier keys.
