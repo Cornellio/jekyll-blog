@@ -7,7 +7,7 @@ categories: puppet riak
 
 Today I published my first Puppet module to the public.
 
-* [cornellio-riak on Github](https://github/cornellio/puppet-riak)
+* [cornellio-riak on Github](https://github.com/Cornellio/puppet-riak)
 * [cornellio-riak on the Puppet Forge](https://forge.puppetlabs.com/cornellio/riak)
 
 It provisions a Riak cluster. Riak is a distributed, key-value datastore released by Basho. The module performs the install from your existing yum repos and handles the cluster join, plan and commit operations automatically. I designed it for production systems in mind, so I coded the module to tune Linux for good performance as recommended by Basho for high speed data access.
