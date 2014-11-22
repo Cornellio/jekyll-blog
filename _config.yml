@@ -1,5 +1,5 @@
 # Site settings
-title: cornellio network
+title: 
 description: > # this means to ignore newlines until "baseurl:"
   A blog about Linux and open source software.
 baseurl: "" # the subpath of your site, e.g. /blog/
