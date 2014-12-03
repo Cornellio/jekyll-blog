@@ -5,17 +5,17 @@ date:   2014-03-12 16:02:00
 categories:
 ---
 
-# Linux Storage Systems
-
-Herein are general guidelines for managing storage in Linux including the Logical Volume Manager (LVM,) disk partitioning, disk resizing, filesystem mounting, etc.
-
 ## Logical Volume Manager
 
-LVM provides flexible storage management in Linux, allowing for advanced features like spanning of partitions across disks, live resizing of volumes and taking snapshots.
+Here is an explanation of the Volume Manager (LVM) that's used in Linux along with an examples of creating and expanding a logical volume. 
+
+LVM provides flexible storage management in Linux, allowing for advanced features like spanning of partitions across disks, live resizing of volumes and taking snapshots. In my work, the most useful feature is the ability to expand the root filesystem without unmounting or rebooting. Read on for a brief lesson in using LVM and doing a live disk expansion.
+
+**Boxes within Boxes**
+
+LVM can be thought of as a hierarchy of containers, or a series of boxes within boxes. Your **physical volumes** are contained in **volume groups**, which in turn are contained in **logical volumes.** The basic steps in creating storage with LVM is to create physical volumes on your block devices, create volume groups than span one or more physical volumes, then create logical volumes that contain volume groups.
 
 **PVs VGs and LVs**
-
-LVM can be thought of as a hierarchy of containers. The **phsyical volumes** contain **volume groups**, which in turn contain **logical volumes.** As such, the basic steps in creating storage is to create physical volumes on one or more block storage devices, create volume groups than span one or more physical volumes, then create logical volumes within volume groups.
 
 ### Creating Physical Volumes
 
@@ -153,7 +153,7 @@ Various lvm commands are available as pv\*, vg\*, and lv\*. Some useful ones bei
 
 Now I will describe how to expand a logical volume onto a newly added disk.
 
-Up to this point I've covered basic practial uses of LVM. Now, to elaborate on this with a useful real world scenerio. Suppost you're server is running out of space on the root volume. Since logical volumes can be expanded without unmounting the underlying filesystems they contain, even the root filesystem can be expanded live, thereby eliminating the need to reboot.
+Up to this point I've covered basic practical uses of LVM. Now, to elaborate on this with a useful real world scenario. Suppose you're server is running out of space on the root volume. Since logical volumes can be expanded without unmounting the underlying filesystems they contain, even the root filesystem can be expanded live, thereby eliminating the need to reboot.
 
 So next time you're low on space and your server has an uptime of 987 days, keep that system running and follow these steps.
 
